@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Harmattan:wght@700&family=Pattaya&display=swap');
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.navbar{
+    background-color: #000000;
+}
+.nav-link{
+    color: #ffffff;
+    margin-right: 5rem;
+    font-size: 2em;
+    font-family: 'Harmattan', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.logoImg{
+    width: 9%;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.logoName{
+    color: #ffffff;
+    font-family: 'Pattaya', sans-serif;
+     font-size: 1.5em;
+     font-style: italic;
+     letter-spacing: 0.1rem;
+     word-spacing: 0.2rem;
+     margin-left: 0.8rem;
+}
+#imgTextContainer{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/sushiMainImg.jpg');  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:82.6vh;
+    position: relative;
+}
+.frontSushiImg{
+    width: 100%;
+  }
+.imgText{
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    width: 60%;
+}
+#menuImgTextContainer{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/sushi2.jpg');  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:30vh;
+    position: relative;
+}
+ #mainImgTextHeading{
+    font-size: 4.4em;
+    font-family: 'Harmattan', sans-serif;
+    color: #ffffff;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+ }
+ #mainImgTextParagraph{
+    font-size: 1.2em;
+    font-family: 'El Messiri', sans-serif;
+    color: #ffffff;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem; 
+    text-align: center;
+ }
+.menuSushiImg{
+    width: 100%;
+  }
+.menuSushiImgText{
+    position: absolute;
+    font-family: 'Harmattan', sans-serif;
+    color: #ffffff;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    bottom: 25%;
+    left: 24%;
+ }
+ #menuSushiImgTextHedaing{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 3em;
+ }
+
+ .sushiMenu{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    box-shadow: 2px 8px 8px 2px rgba(0,0,0,1);
+ }
+.table{
+    background-color: #8b3103;
+}
+ .menuHeading{
+     text-align: center;
+     padding-top: 0.5rem;
+     font-family: 'Pattaya', sans-serif;
+     font-size: 2.2em;
+ }
+ .menuParagraph{
+     text-align: center;
+     font-family: 'Harmattan', sans-serif;
+     font-size: 1.5em;
+     color: #fffee4;
+     word-spacing: 0.1rem;
+     letter-spacing: 0.1rem;
+ }
+ .sushiMenuTable{
+     text-align: center;
+ }
+.sushiMenuOptions, .sushiMenuPrice{
+   font-weight: bold;
+   padding-right: 0.5rem;
+   color:#ffffff;
+   font-family: 'El Messiri', sans-serif;
+   font-size: 1.1em;
+  letter-spacing: 0.2rem;
+}
+.sushiMenuText{
+    color:#ffffff;
+    font-family: 'El Messiri', sans-serif;
+   font-size: 1em;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+}
+.menuContainer{
+    background-color: #fffee4;
+    background-repeat: no-repeat;
+}
+.menuCard{
+    background-color: #ffab0f;
+}
+
+
+footer{
+    background-color:#543c2c ;
+    text-align: center;
+}
+.footer_para{
+    margin-top: 1em;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Harmattan', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+
+@media (max-width:1024px) {
+    .logoImg{
+        margin-left: 1rem;
+        width: 20%;
+    }
+    .nav-link{
+        color: #ffffff;
+        margin-right: 2rem;
+    }
+    .imgText{
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 1.5em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 2.5em;
+     }
+     .sushiMenu{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .menuHeading{
+        font-size: 2em;
+    }
+    .menuParagraph{
+        font-size: 1.5em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1.2em;
+     }
+     .sushiMenuText{
+        font-size: 1.2em;
+     }
+    
+}
+
+@media (max-width:414px) {
+    .logoImg{
+        margin-left: 0.5rem;
+        width: 15%;
+    }
+    .logoName{
+         font-size: 1.2em;
+         margin-left: 0.8rem;
+    }
+    .nav-link{
+        margin-right: 0rem;
+    }
+    .imgText{
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 1em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 1.8em;
+     }
+     .sushiMenu{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menuHeading{
+        font-size: 1.8em;
+    }
+    .menuParagraph{
+        font-size: 1.4em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1em;
+     }
+     .sushiMenuText{
+        font-size: 1em;
+     }
+    
+}
+
+@media (max-width:411px) {
+    .logoImg{
+        margin-left: 0.5rem;
+        width: 15%;
+    }
+    .logoName{
+         font-size: 1.2em;
+         margin-left: 0.8rem;
+    }
+    .nav-link{
+        margin-right: 0rem;
+    }
+    .imgText{
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 1em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 1.8em;
+     }
+     .sushiMenu{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menuHeading{
+        font-size: 1.8em;
+    }
+    .menuParagraph{
+        font-size: 1.4em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1em;
+     }
+     .sushiMenuText{
+        font-size: 1em;
+     }
+    
+}
+
+@media (max-width:375px) {
+    .logoImg{
+        margin-left: 0.5rem;
+        width: 15%;
+    }
+    .logoName{
+         font-size: 1.2em;
+         margin-left: 0.8rem;
+    }
+    .nav-link{
+        margin-right: 0rem;
+    }
+    .imgText{
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 1em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 1.8em;
+     }
+     .sushiMenu{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menuHeading{
+        font-size: 1.8em;
+    }
+    .menuParagraph{
+        font-size: 1.4em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1em;
+     }
+     .sushiMenuText{
+        font-size: 1em;
+     }
+    
+}
+
+@media (max-width:360px) {
+    .logoImg{
+        margin-left: 0.5rem;
+        width: 15%;
+    }
+    .logoName{
+         font-size: 1.2em;
+         margin-left: 0.8rem;
+    }
+    .nav-link{
+        margin-right: 0rem;
+    }
+    .imgText{
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 1em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 1.8em;
+     }
+     .sushiMenu{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menuHeading{
+        font-size: 1.8em;
+    }
+    .menuParagraph{
+        font-size: 1.4em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1em;
+     }
+     .sushiMenuText{
+        font-size: 1em;
+     }
+    
+}
+
+@media (max-width:320px) {
+    .logoImg{
+        margin-left: 0.5rem;
+        width: 15%;
+    }
+    .logoName{
+         font-size: 1em;
+         margin-left: 0.8rem;
+    }
+    .nav-link{
+        margin-right: 0rem;
+    }
+    .imgText{
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    #mainImgTextHeading{
+        padding-left: 0rem;
+        text-align: center;
+        font-size: 1.8em;
+        padding-bottom: 0.5rem;
+     }
+     #mainImgTextParagraph{
+        font-size: 0.9em;
+        text-align: center;
+     }
+     .menuSushiImgText{
+        left: 4%;
+        text-align: center;
+     }
+     #menuSushiImgTextHedaing{
+        font-size: 1.3em;
+     }
+     .sushiMenu{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .menuHeading{
+        font-size: 1.5em;
+    }
+    .menuParagraph{
+        font-size: 1em;
+    }
+    .sushiMenuOptions, .sushiMenuPrice{
+        font-size: 1em;
+     }
+     .sushiMenuText{
+        font-size: 0.9em;
+     }
+    
+}
